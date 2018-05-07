@@ -18,4 +18,8 @@
     <type name="Magento\Theme\Block\Html\Breadcrumbs">
         <plugin name="batignollesThemeBlockHtmlBreadcrumbs" type="Batignolles\Test\Plugin\Theme\Block\Html\Breadcrumbs" />
     </type>
+    <!-- <preference for="Magento\Framework\App\FrontControllerInterface" type="Batignolles\Test\App\FrontController" /> -->
+    <type name="Magento\Catalog\Controller\Product\View">
+        <plugin name="batignollesProductViewControllerPlugin" type="Batignolles\Test\Plugin\Catalog\Controller\Product\View" sortOrder="10"/>
+    </type>
 </config>
